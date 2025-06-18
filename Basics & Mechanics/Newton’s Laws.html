@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>🧲 Newton’s Laws</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+      async
+    ></script>
+  </head>
+  <body>
+    <h1 class="main-title">——— 🧲 Newton’s Laws ———</h1>
+
+    <hr />
+
+    <h2>——— ✊ Forces ———</h2>
+
+    <section class="definitions">
+      <h3>~ 📖 Definition ~</h3>
+      <p>
+        Force is a <strong>vector quantity</strong> that represents a push or pull exerted on an object.
+        It causes an object to accelerate, decelerate, remain still, or change direction.
+      </p>
+      <ul>
+        <li>
+          Forces are measured in <strong>Newtons (N)</strong>.
+        </li>
+        <li>
+          <span class="highlight">N</span> = <span class="highlight">1 kg·m/s²</span>, meaning <span class="highlight">1 N</span> will accelerate a <span class="highlight">1 kg</span> mass by <span class="highlight">1 m/s²</span>.
+        </li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section class="formulas">
+      <h3>~ ⚖️ Newton's Laws of Motion ~</h3>
+
+      <h4>1. Inertia (First Law)</h4>
+      <ul>
+        <li>
+          An object at rest stays at rest, and an object in motion continues at constant velocity (same speed and direction), unless acted upon by a net external force.
+        </li>
+        <li>
+          Objects with more mass have more inertia — meaning heavier objects require more force to start or stop moving.
+        </li>
+      </ul>
+
+      <h4>2. Second Law of Motion</h4>
+
+      <div class="formula">$$\vec{F}_{\text{net}} = m \vec{a}$$</div>
+      <ul>
+        <li>The net force on an object equals its mass times acceleration.</li>
+        <li>For example, gravitational force can be calculated by measuring the acceleration of a falling object and its mass.</li>
+        <li>Rearranged:</li>
+      </ul>
+      <div class="formula">$$\vec{a} = \frac{\vec{F}_{\text{net}}}{m}$$</div>
+
+      <h4>3. Third Law of Motion</h4>
+      <ul>
+        <li>For every action, there is an equal and opposite reaction.</li>
+        <li>
+          For example, when an object rests on a surface, the surface exerts an upward <span class="highlight">Normal force</span> equal and opposite to the gravitational force, resulting in zero net force.
+        </li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <h2>——— 🛑 Friction: Static and Kinetic ———</h2>
+
+    <section class="definitions">
+      <h3>~ 📚 Definition ~</h3>
+      <ul>
+        <li>
+          <strong>Static friction:</strong> Force that resists the start of motion between two surfaces in contact. Acts when the object is stationary.
+        </li>
+        <li>
+          <strong>Kinetic friction:</strong> Force opposing motion when two surfaces slide past each other. Acts when the object is moving.
+        </li>
+      </ul>
+    </section>
+
+    <section class="definitions">
+      <h3>~ ↔️ Direction ~</h3>
+      <p>Both friction forces act <strong>opposite</strong> to the direction of applied force or motion.</p>
+    </section>
+
+    <section class="definitions">
+      <h3>~ 📏 Magnitude ~</h3>
+      <p>
+        Static friction adjusts up to a maximum: <br />
+        <div class="formula">$$F_{\text{static}} \leq \mu_s N$$</div>
+        where <span class="highlight">\(\mu_s\)</span> is the coefficient of static friction, and <span class="highlight">\(N\)</span> is the normal force.
+      </p>
+
+      <p>
+        Kinetic friction has a constant magnitude once moving: <br />
+        <div class="formula">$$F_{\text{kinetic}} = \mu_k N$$</div>
+        where <span class="highlight">\(\mu_k < \mu_s\)</span> typically.
+      </p>
+    </section>
+
+    <section class="definitions">
+      <h3>~ 🔑 Key Points ~</h3>
+      <ul>
+        <li>Static friction must be overcome to start motion.</li>
+        <li>Kinetic friction acts continuously to resist motion once started.</li>
+        <li>Coefficients <span class="highlight">\(\mu_s\)</span> and <span class="highlight">\(\mu_k\)</span> depend on the materials in contact.</li>
+        <li>Both forces are proportional to the normal force; coefficients are dimensionless.</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <h2>——— 🔄 Uniform Circular Motion ———</h2>
+
+    <ul>
+      <li>An object moves at constant speed on a circular path.</li>
+      <li>Velocity direction constantly changes → object <strong>accelerates</strong>.</li>
+      <li>This acceleration is caused by <strong>centripetal force</strong>.</li>
+    </ul>
+
+    <section class="formulas">
+      <h3>~ 🔄 Centripetal Force ~</h3>
+      <div class="formula">$$F_c = \frac{m v^2}{r}$$</div>
+
+      <p>Where:</p>
+      <ul>
+        <li><span class="highlight">\(F_c\)</span> = centripetal force (Newtons)</li>
+        <li><span class="highlight">\(m\)</span> = mass (kg)</li>
+        <li><span class="highlight">\(v\)</span> = velocity (m/s)</li>
+        <li><span class="highlight">\(r\)</span> = radius of circle (m)</li>
+      </ul>
+
+      <h4>Explanation</h4>
+      <ul>
+        <li>Force points <strong>toward center</strong> of circle.</li>
+        <li>Perpendicular to velocity.</li>
+        <li>Faster speed or smaller radius → stronger force required.</li>
+        <li>Velocity squared because acceleration <span class="highlight">\(a = \frac{v^2}{r}\)</span> and <span class="highlight">\(F = m a\)</span>.</li>
+        <li>Doubling speed → quadruples required force.</li>
+      </ul>
+
+      <h4>Note</h4>
+      <p>If centripetal force disappears, the object moves in a straight line tangent to the circle at release.</p>
+    </section>
+
+    <section class="definitions">
+      <h3>~ 🌀 Centrifugal Force ~</h3>
+      <ul>
+        <li>Not a real force — an apparent force felt in a rotating frame.</li>
+        <li>Example: on a merry-go-round, feeling pushed outward is centrifugal force.</li>
+        <li>Real force acting inward is centripetal force keeping you moving in a circle.</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <h2>——— 🌌 Newtonian Gravity (Universal Law of Gravitation) ———</h2>
+
+    <ul>
+      <li>Every mass attracts every other mass with a gravitational force.</li>
+      <li>Force is <strong>attractive</strong>, depends on masses, weakens with distance squared.</li>
+    </ul>
+
+    <div class="formula">$$F = G \frac{m_1 m_2}{r^2}$$</div>
+
+    <p>Where:</p>
+    <ul>
+      <li><span class="highlight">\(F\)</span> = gravitational force (N)</li>
+      <li><span class="highlight">\(m_1, m_2\)</span> = masses (kg)</li>
+      <li><span class="highlight">\(r\)</span> = distance between centers (m)</li>
+      <li><span class="highlight">\(G\)</span> = gravitational constant <span class="highlight">\(= 6.674 \times 10^{-11} \text{ N·m}^2/\text{kg}^2\)</span></li>
+    </ul>
+
+    <hr />
+
+    <section class="definitions">
+      <h3>~ ❓ What is G? ~</h3>
+      <ul>
+        <li><span class="highlight">\(G\)</span> is the <strong>gravitational constant</strong>, a fixed number used in the formula.</li>
+        <li>It tells us how strong gravity is in general.</li>
+        <li>Its value is:</li>
+      </ul>
+      <div class="formula">$$G = 6.674 \times 10^{-11} \text{ N·m}^2/\text{kg}^2$$</div>
+    </section>
+  </body>
+</html>
