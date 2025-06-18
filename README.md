@@ -28,7 +28,6 @@
 - Conservation of momentum  
 - Elastic vs. inelastic collisions  
 
----
 
 ## 🌊 2. Waves & Oscillations
 ### [🌀 Simple Harmonic Motion](Waves%20%26%20Oscillations/Simple%20Harmonic%20Motion.md)
@@ -44,7 +43,6 @@
 - Properties of sound  
 - The Doppler Effect  
 
----
 
 ## 🌡️ 3. Thermodynamics
 ### [🌡️ Temperature & Heat](Thermodynamics/Temperature%20%26%20Heat.md)
@@ -60,7 +58,6 @@
 - Efficiency  
 - Real-world applications  
 
----
 
 ## ⚡ 4. Electricity & Magnetism
 ### [⚡ Electrostatics](Electricity%20%26%20Magnetism/Electrostatics.md)
@@ -77,7 +74,6 @@
 - Magnetic fields & forces  
 - Electromagnetic induction basics  
 
----
 
 ## 🔍 5. Optics
 ### [🔦 Geometric Optics](Optics/Geometric%20Optics.md)
@@ -90,7 +86,6 @@
 - Polarization  
 - Young’s double-slit experiment  
 
----
 
 ## 🧬 6. Modern Physics
 ### [⏱️ Relativity](Modern%20Physics/Relativity.md)
