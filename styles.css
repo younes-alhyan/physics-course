@@ -59,7 +59,7 @@ h3 {
   color: var(--desc-color);
 }
 
-code, .highlight {
+.highlight {
   background: var(--code-bg);
   color: var(--code-color);
   padding: 2px 6px;
