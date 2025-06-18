@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kinematics</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+      async
+    ></script>
+  </head>
+  <body>
+    <h1 class="main-title">——— ⚙️ Kinematics ———</h1>
+
+    <section class="section-1d">
+      <h2>——— 🚗 One-Dimensional Motion ———</h2>
+
+      <section class="definitions">
+        <h3>~ 📝 Definitions ~</h3>
+        <ul>
+          <li>
+            <span class="var">Time (<code>t</code>):</span><br />
+            How long you were driving for.
+            <span class="unit">Unit:</span> <code>seconds (s)</code>
+          </li>
+          <li>
+            <span class="var">Position (<code>x</code>):</span><br />
+            Where you are or where you were.
+            <span class="unit">Unit:</span> <code>meters (m)</code>
+          </li>
+          <li>
+            <span class="var">Velocity (<code>v</code>):</span><br />
+            The way your position changes over time — speed
+            <strong>with direction</strong>. <span class="unit">Unit:</span>
+            <code>meters per second (m/s)</code>
+          </li>
+          <li>
+            <span class="var">Acceleration (<code>a</code>):</span><br />
+            The way your velocity changes over time.
+            <span class="unit">Unit:</span>
+            <code>meters per second squared (m/s²)</code>
+          </li>
+        </ul>
+      </section>
+
+      <section class="formulas">
+        <h3>~ 📐 Formulas ~</h3>
+
+        <p class="formula-title">Average velocity:</p>
+        <div class="formula">$$\bar{v} = \frac{\Delta x}{\Delta t}$$</div>
+        <p class="desc">(Displacement divided by time interval)</p>
+
+        <p class="formula-title">Average acceleration:</p>
+        <div class="formula">$$\bar{a} = \frac{\Delta v}{\Delta t}$$</div>
+        <p class="desc">(Change in velocity divided by time interval)</p>
+
+        <p class="formula-title">Final velocity:</p>
+        <div class="formula">$$v = v_0 + at$$</div>
+        <p class="desc">(Initial velocity plus acceleration times time)</p>
+
+        <p class="formula-title">Average velocity (constant acceleration):</p>
+        <div class="formula">$$\bar{v} = \frac{v_0 + v}{2}$$</div>
+
+        <p class="formula-title">Displacement under constant acceleration:</p>
+        <div class="formula">$$x - x_0 = v_0 t + \frac{1}{2} a t^2$$</div>
+      </section>
+
+      <section class="notes">
+        <h3>~ 💡 Notes ~</h3>
+        <p>For any physical variable that changes over time:</p>
+        <ul>
+          <li>If it's <strong>constant</strong>, use the value directly.</li>
+          <li>
+            If it <strong>varies</strong>, and only beginning and end are
+            known:<br />
+            <div class="formula small">
+              $$\bar{V} = \frac{V_0 + V_{\text{end}}}{2}$$
+            </div>
+          </li>
+          <li>
+            This is an effective approximation when the exact form is unknown.
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="section-2d">
+      <h2>——— ✈️ Two-Dimensional Motion ———</h2>
+
+      <section class="vectors">
+        <h3>~ ➗ Vectors ~</h3>
+        <ul>
+          <li>
+            Motion in 2D is described using <strong>vectors</strong>:<br />
+            <div class="formula">$$\vec{r} = x \hat{i} + y \hat{j}$$</div>
+            (In 3D, add: <span class="highlight">\( z \hat{k} \)</span>)
+          </li>
+
+          <li>
+            Velocity vectors can be decomposed into components using
+            trigonometry:<br />
+            If an object is launched at an angle <span class="highlight">(\( \theta = 30^\circ \))</span> with
+            speed <span class="highlight">(\( v \))</span>:
+
+            <ul>
+              <li>
+                Horizontal component:<br />
+                <div class="formula">$$v_x = v \cos(\theta)$$</div>
+              </li>
+              <li>
+                Vertical component:<br />
+                <div class="formula">$$v_y = v \sin(\theta)$$</div>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            Velocity vector:
+            <div class="formula">
+              $$\vec{v} = v_x \hat{i} + v_y \hat{j} = v \cos(\theta) \hat{i} + v
+              \sin(\theta) \hat{j}$$
+            </div>
+          </li>
+          <li>
+            <strong>Apply 1D motion equations independently</strong> in x and y
+            directions.
+          </li>
+        </ul>
+      </section>
+    </section>
+  </body>
+</html>
