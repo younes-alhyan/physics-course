@@ -1,29 +1,29 @@
 # 🧠 Physics Learning Roadmap
 
 ## 🛠️ 1. Basics & Mechanics
-### [📏 Units & Measurements](https://github.com/itachi-555/physics-course/Basics%20%26%20Mechanics/Units%20%26%20Measurements.html)
+### [📏 Units & Measurements](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Units%20%26%20Measurements.html)
 - SI units  
 - Scalars vs. Vectors  
 - Dimensional analysis  
 
-### [🏃 Kinematics](https://github.com/itachi-555/physics-course/Basics%20%26%20Mechanics/Kinematics.html)
+### [🏃 Kinematics](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Kinematics.html)
 - Motion in 1D & 2D  
 - Displacement, velocity, acceleration  
 - Equations of motion  
 
-### [🧲 Newton’s Laws](https://github.com/itachi-555/physics-course/Basics%20%26%20Mechanics/Newton%E2%80%99s%20Laws.html)
+### [🧲 Newton’s Laws](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Newton%E2%80%99s%20Laws.html)
 - Force & net force  
 - Free-body diagrams  
 - Friction  
 - Uniform circular motion  
 - Newtonian gravity  
 
-### [⚡ Work & Energy](https://github.com/itachi-555/physics-course/Basics%20%26%20Mechanics/Work%20%26%20Energy.html)
+### [⚡ Work & Energy](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Work%20%26%20Energy.html)
 - Work & power  
 - Kinetic & potential energy  
 - Mechanical energy conservation  
 
-### [💥 Momentum](https://github.com/itachi-555/physics-course/Basics%20%26%20Mechanics/Momentum.html)
+### [💥 Momentum](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Momentum.html)
 - Linear momentum & impulse  
 - Conservation of momentum  
 - Elastic vs. inelastic collisions  
