@@ -28,6 +28,21 @@
 - Conservation of momentum  
 - Elastic vs. inelastic collisions  
 
+### [🌀 Rotational Motion & Torque](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Rotational%20Motion%20%26%20Torque.html)
+- Angular displacement, velocity, acceleration  
+- Moment of inertia  
+- Torque and rotational dynamics  
+- Rotational kinetic energy  
+
+### [⚖️ Statics](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Statics.html)
+- Equilibrium of forces and moments  
+- Free-body diagrams in static systems  
+- Conditions for equilibrium  
+
+### [💧 Fluids](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Fluids.html)
+- Fluid properties (density, pressure)  
+- Buoyancy and Archimedes’ principle  
+- Fluid dynamics: continuity and Bernoulli’s equation  
 
 ## 🌊 2. Waves & Oscillations
 ### [🌀 Simple Harmonic Motion](Waves%20%26%20Oscillations/Simple%20Harmonic%20Motion.html)
