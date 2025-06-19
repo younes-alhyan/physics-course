@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>💥 Work & Energy</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+      async
+    ></script>
+  </head>
+  <body>
+    <h1 class="main-title">——— 💥 Work & Energy ———</h1>
+
+    <section class="section section-work">
+      <h2 class="section-title">——— 🚠 Work ———</h2>
+
+      <section class="definitions">
+        <h3 class="subsection-title">~ 📖 Definition ~</h3>
+        <ul class="definition-list">
+          <li class="definition-item">
+            Work is the amount of force applied to a system (object) over a
+            certain distance.
+          </li>
+          <li class="definition-item">
+            It is expressed in Joules <span class="highlight">\(J\)</span>.
+          </li>
+          <li class="formula">$$W = F \cdot d \cdot \cos(\theta)$$</li>
+          <li class="definition-item">
+            Where:<br />
+            <span class="highlight">F</span> = applied force<br />
+            <span class="highlight">d</span> = distance<br />
+            <span class="highlight">\(\theta\)</span> = angle between force and
+            motion direction
+          </li>
+        </ul>
+      </section>
+
+      <section class="formulas">
+        <h3 class="subsection-title">~ 🔄 Varying Force ~</h3>
+        <p>If the force changes with position:</p>
+        <div class="formula">$$W = \int_0^d F(x)\, dx$$</div>
+      </section>
+
+      <section class="examples">
+        <h3>~ 🧪 Example ~</h3>
+        <p>
+          A <span class="highlight">1 kg</span> object is pushed along a
+          straight surface. The applied force decreases
+          <strong>linearly</strong> from <span class="highlight">15 N</span> to
+          <span class="highlight">0 N</span> over a distance of
+          <span class="highlight">d = 0.6 m</span>.
+        </p>
+
+        <p><strong>1) Expressing Force Function \( F(x) \):</strong></p>
+        <p class="desc">
+          (Force \( F(x) \) is defined based on how it changes over the
+          distance.)
+        </p>
+        <ul>
+          <li>
+            Slope:
+            <div class="formula small">
+              $$m = \frac{F(d) - F(0)}{d} = \frac{0 - 15}{d} = -\frac{15}{d}$$
+            </div>
+            <p class="desc">
+              (Since the force \( F(x) \) changes linearly, it can be expressed
+              as \( F(x) = mx + b \).)
+            </p>
+          </li>
+          <li>
+            So:
+            <div class="formula small">
+              $$F(x) = -\frac{15}{d} \cdot x + 15 = 15\left(1 -
+              \frac{x}{d}\right)$$
+            </div>
+          </li>
+        </ul>
+
+        <p><strong>2) Work Calculation:</strong></p>
+        <div class="formula">
+          $$W = \int_0^d 15\left(1 - \frac{x}{d}\right)\, dx$$
+        </div>
+        <div class="formula">
+          $$= 15 \int_0^d \left(1 - \frac{x}{d}\right) dx$$
+        </div>
+        <div class="formula">
+          $$= 15 \left[ x - \frac{x^2}{2d} \right]_0^d$$
+        </div>
+        <div class="formula">
+          $$= 15 \left(d - \frac{d}{2}\right) = 15 \cdot \frac{d}{2}$$
+        </div>
+
+        <p><strong>Plugging in \( d = 0.6 \, m \):</strong></p>
+        <div class="formula">$$W = 15 \cdot 0.3 = 4.5 \, J$$</div>
+
+        <p>
+          <strong>✅ Final Answer:</strong> Total work done on the object is
+          <span class="highlight">4.5 Joules</span>.
+        </p>
+      </section>
+    </section>
+
+    <section class="section section-energy">
+      <h2 class="section-title">——— ⚡ Energy ———</h2>
+
+      <section class="definitions">
+        <h3 class="subsection-title">~ 📖 Definition ~</h3>
+        <p>
+          Energy is the result of work. When work is done on a system, energy is
+          transferred to it. Measured in <strong>Joules (J)</strong>.
+        </p>
+      </section>
+
+      <section class="formulas">
+        <h3 class="subsection-title">~ 🚀 Kinetic Energy ~</h3>
+        <div class="formula">$$KE = \frac{1}{2}mv^2$$</div>
+        <div class="formula">$$W_{net} = KE_f - KE_i$$</div>
+        <ul class="example-list">
+          <li>
+            Given:
+            <span class="highlight"
+              >\( KE_f = 4.5,\ KE_i = 0 \Rightarrow v = \sqrt{\frac{2 \cdot
+              4.5}{1}} = 3 \text{ m/s} \)</span
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="formulas">
+        <h3 class="subsection-title">~ 🏔️ Potential Energy ~</h3>
+        <p><strong>Gravitational:</strong></p>
+        <div class="formula">$$PE = mgh$$</div>
+        <p><strong>Spring (Elastic):</strong></p>
+        <ul class="example-list">
+          <li>Spring force: <span class="highlight">\( F = kx \)</span></li>
+          <li>
+            Work stored as PE:
+            <div class="formula">
+              $$PE = \int_0^x kx' dx' = \frac{1}{2}kx^2$$
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="notes">
+        <h2 class="subsection-title">
+          ——— ♻️ Conservation of Mechanical Energy ———
+        </h2>
+
+        <h3>~ 📖 Definition ~</h3>
+        <p>
+          If no external forces (like friction or air resistance) take energy
+          away from the system, then the total mechanical energy remains
+          constant.
+        </p>
+        <div class="formula">$$E_{\text{mechanical}} = KE + PE$$</div>
+
+        <p><strong>The Core Principle:</strong></p>
+        <div class="formula">
+          $$E_{\text{initial}} = E_{\text{final}} \quad \Rightarrow \quad KE_i +
+          PE_i = KE_f + PE_f$$
+        </div>
+
+        <p>
+          This means: If you push, throw, lift, or drop something — as long as
+          no energy is lost (for example, due to heat, friction, or air
+          resistance) — its total mechanical energy stays the same. The energy
+          just shifts between forms, like kinetic and potential.
+        </p>
+      </section>
+    </section>
+  </body>
+</html>
