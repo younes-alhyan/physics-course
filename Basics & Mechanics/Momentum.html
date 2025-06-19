@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>💥 Momentum</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+      async
+    ></script>
+  </head>
+  <body>
+    <h1 class="main-title">——— 💥 Momentum ———</h1>
+
+    <section class="section-momentum">
+      <h2>——— ⚡ Momentum ———</h2>
+
+      <section class="definitions">
+        <h3>~ 📘 Definitions ~</h3>
+        <ul>
+          <li>
+            <span class="var">Momentum (<span class="highlight">p</span>):</span><br />
+            The product of mass and velocity of an object.<br />
+            <span class="unit">Formula:</span>
+            <span class="highlight">\( p = m \times v \)</span>
+          </li>
+          <li>It is a vector quantity (has both magnitude and direction).</li>
+          <li>Momentum represents the <em>“amount of motion”</em> an object has.</li>
+          <li>
+            <span class="var">Relation to force:</span><br />
+            Force causes changes in momentum. The rate of momentum change equals the force applied:<br />
+            <div class="formula">$$F = \frac{\Delta p}{\Delta t}$$</div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="definitions">
+        <h3>~ 🌀 Impulse ~</h3>
+        <ul>
+          <li>
+            Impulse (<span class="highlight">J</span>) is the change in momentum caused by a force acting over a time interval.<br />
+            <span class="unit">Formula:</span>
+            <div class="formula">$$J = F_{\text{avg}} \times \Delta t = \Delta p = m v_f - m v_i$$</div>
+          </li>
+          <li>Where:</li>
+          <ul>
+            <li><span class="highlight">F<sub>avg</sub></span> = average force applied</li>
+            <li><span class="highlight">Δt</span> = time interval force acts</li>
+            <li><span class="highlight">Δp</span> = change in momentum</li>
+          </ul>
+          <li>Impulse is also a vector and has units of <span class="highlight">kg·m/s</span> or <span class="highlight">N·s</span>.</li>
+          <li>If force varies with time, impulse is the integral of force over time:<br />
+            <div class="formula">$$J = \int F(t) \, dt$$</div>
+          </li>
+          <li>The impulse-momentum theorem states:<br />
+            <div class="formula">$$J = \Delta p$$</div>
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="section-conservation">
+      <h2>——— ♻️ Momentum Conservation ———</h2>
+
+      <section class="definitions">
+        <h3>~ 📙 Definition ~</h3>
+        <p>
+          In a closed system (no external forces), total momentum remains constant.<br />
+          When objects interact (collide or push), total momentum before equals total momentum after:
+        </p>
+        <div class="formula">$$\sum p_{\text{initial}} = \sum p_{\text{final}}$$</div>
+        <div class="formula small">
+          $$m_1 v_{1i} + m_2 v_{2i} + \cdots = m_1 v_{1f} + m_2 v_{2f} + \cdots$$
+        </div>
+        <p><strong>Example:</strong> Two ice skaters push off each other on frictionless ice.</p>
+        <ul>
+          <li>Skater 1 moves forward with momentum <span class="highlight">\( p_1 \)</span></li>
+          <li>Skater 2 moves backward with momentum <span class="highlight">\( p_2 \)</span></li>
+          <li>Because the system started at rest, <span class="highlight">\( p_1 + p_2 = 0 \)</span></li>
+        </ul>
+      </section>
+
+      <section class="notes">
+        <h3>~ 💡 Notes ~</h3>
+        <ul>
+          <li>Momentum is a vector — direction matters.</li>
+          <li>External forces (like friction) can change total momentum.</li>
+          <li>Conservation of momentum helps analyze collisions and explosions.</li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="section-collisions">
+      <h2>——— ⚔️ Elastic vs. Inelastic Collisions ———</h2>
+
+      <section>
+        <h3>1) Elastic Collisions</h3>
+        <ul>
+          <li>Objects bounce without losing kinetic energy.</li>
+          <li>Both momentum and kinetic energy are conserved.</li>
+          <li><strong>Example:</strong> Two billiard balls colliding.</li>
+        </ul>
+        <p><strong>Formulas:</strong></p>
+        <div class="formula">$$\text{Momentum before} = \text{Momentum after}$$</div>
+        <div class="formula">$$\text{Kinetic Energy before} = \text{Kinetic Energy after}$$</div>
+      </section>
+
+      <section>
+        <h3>2) Inelastic Collisions</h3>
+        <ul>
+          <li>Objects lose some kinetic energy (heat, sound, deformation).</li>
+          <li>Momentum is conserved, but kinetic energy is not.</li>
+          <li>In perfectly inelastic collisions, objects stick and move together.</li>
+          <li><strong>Example:</strong> Clay lump sticking to the floor.</li>
+        </ul>
+        <p><strong>Formulas:</strong></p>
+        <div class="formula">$$\text{Momentum before} = \text{Momentum after}$$</div>
+        <div class="formula">$$\text{Kinetic Energy before} > \text{Kinetic Energy after}$$</div>
+      </section>
+    </section>
+
+    <section class="section-com">
+      <h2>——— ⚖️ Center of Mass ———</h2>
+
+      <section class="definitions">
+        <h3>~ 📚 Definition ~</h3>
+        <p>
+          The point where mass of an object or system is considered concentrated.<br />
+          It's the weighted average position of all mass.
+        </p>
+
+        <p><strong>For particles:</strong></p>
+        <div class="formula">$$\vec{R}_{cm} = \frac{1}{M} \sum_i m_i \vec{r}_i$$</div>
+
+        <ul>
+          <li><span class="highlight">\( \vec{R}_{cm} \)</span> = center of mass position vector</li>
+          <li><span class="highlight">\( M = \sum_i m_i \)</span> total mass</li>
+          <li><span class="highlight">\(m_i\)</span> = mass of i<sup>th</sup> particle</li>
+          <li><span class="highlight">\( \vec{r}_i \)</span> = position vector of i<sup>th</sup> particle</li>
+        </ul>
+
+        <p><strong>For continuous objects:</strong></p>
+        <div class="formula">$$\vec{R}_{cm} = \frac{1}{M} \int \vec{r} \, dm$$</div>
+
+        <p>The center of mass moves as if all external forces act on a single point mass located there.</p>
+      </section>
+    </section>
+  </body>
+</html>
