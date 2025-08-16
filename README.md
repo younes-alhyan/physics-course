@@ -1,45 +1,45 @@
 # 🧠 Physics Learning Roadmap
 
 ## 🛠️ 1. Basics & Mechanics
-### [📏 Units & Measurements](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Units%20%26%20Measurements.html)
+### [📏 Units & Measurements](https://younes-alhyan.github.io/physics-course/Basics%20%26%20Mechanics/Units%20%26%20Measurements.html)
 - SI units  
 - Scalars vs. Vectors  
 - Dimensional analysis  
 
-### [🏃 Kinematics](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Kinematics.html)
+### [🏃 Kinematics](https://younes-alhyan.github.io/physics-course/Basics%20%26%20Mechanics/Kinematics.html)
 - Motion in 1D & 2D  
 - Displacement, velocity, acceleration  
 - Equations of motion  
 
-### [🧲 Newton’s Laws](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Newton%E2%80%99s%20Laws.html)
+### [🧲 Newton’s Laws](https://younes-alhyan.github.io/physics-course/Basics%20%26%20Mechanics/Newton%E2%80%99s%20Laws.html)
 - Force & net force  
 - Free-body diagrams  
 - Friction  
 - Uniform circular motion  
 - Newtonian gravity  
 
-### [⚡ Work & Energy](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Work%20%26%20Energy.html)
+### [⚡ Work & Energy](https://younes-alhyan.github.io/physics-course/Basics%20%26%20Mechanics/Work%20%26%20Energy.html)
 - Work & power  
 - Kinetic & potential energy  
 - Mechanical energy conservation  
 
-### [💥 Momentum](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Momentum.html)
+### [💥 Momentum](https://younes-alhyan.github.io/physics-course/Basics%20%26%20Mechanics/Momentum.html)
 - Linear momentum & impulse  
 - Conservation of momentum  
 - Elastic vs. inelastic collisions  
 
-### [🌀 Rotational Motion & Torque](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Rotational%20Motion%20%26%20Torque.html)
+### [🛞 Rotational Motion & Torque](https://younes-alhyan.github.io/physics-course/Basics%20%26%20Mechanics/Rotational%20Motion%20%26%20Torque.html)
 - Angular displacement, velocity, acceleration  
 - Moment of inertia  
 - Torque and rotational dynamics  
 - Rotational kinetic energy  
 
-### [⚖️ Statics](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Statics.html)
+### [⚖️ Statics](https://younes-alhyan.github.io/physics-course/Basics%20%26%20Mechanics/Statics.html)
 - Equilibrium of forces and moments  
 - Free-body diagrams in static systems  
 - Conditions for equilibrium  
 
-### [💧 Fluids](https://itachi-555.github.io/physics-course/Basics%20%26%20Mechanics/Fluids.html)
+### [💧 Fluids](https://younes-alhyan.github.io/physics-course/Basics%20%26%20Mechanics/Fluids.html)
 - Fluid properties (density, pressure)  
 - Buoyancy and Archimedes’ principle  
 - Fluid dynamics: continuity and Bernoulli’s equation  
